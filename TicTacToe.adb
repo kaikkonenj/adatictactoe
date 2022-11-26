@@ -1,8 +1,11 @@
 --Ada program for 2 player (player vs. player) tic-tac-toe.
+--Copyright 2022 Jesse Kaikkonen
+--All rights reserved.
+
 with Ada.Text_IO;
 with Ada.Integer_Text_IO;
 use Ada;
-procedure enums is
+procedure TicTacToe is
   --Using modulous to avoid being out of bounds of the board.
 	type Index_Nums is mod 3;
   --col and row are limited to 1,2,& 3.
@@ -146,4 +149,4 @@ begin
 		end if;			
 	end loop Main;
 
-end enums;
+end TicTacToe;
