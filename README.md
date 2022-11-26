@@ -1,3 +1,4 @@
+<img width="422" alt="Screen Shot 2022-11-25 at 4 52 27 PM" src="https://user-images.githubusercontent.com/102774700/204066637-864c52e9-7706-4d38-b183-075e60ef4b46.png">
 You compile the program by running gprbuild.
 You run the program by ./tictactoe
 
