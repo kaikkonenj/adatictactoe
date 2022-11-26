@@ -5,7 +5,7 @@
 with Ada.Text_IO;
 with Ada.Integer_Text_IO;
 use Ada;
-procedure TicTacToe is
+procedure tictactoe is
   --Using modulous to avoid being out of bounds of the board.
 	type Index_Nums is mod 3;
   --col and row are limited to 1,2,& 3.
@@ -149,4 +149,4 @@ begin
 		end if;			
 	end loop Main;
 
-end TicTacToe;
+end tictactoe;
